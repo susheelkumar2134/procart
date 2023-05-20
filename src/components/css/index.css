@@ -1,0 +1,867 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=Cinzel+Decorative&family=Cinzel:wght@400;500&family=Hind+Siliguri&family=Kanit&family=Orbitron:wght@500&family=Oxygen&family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=Cinzel+Decorative&family=Cinzel:wght@400;500&family=Hind+Siliguri&family=Kanit&family=Orbitron:wght@500&family=Oxygen&family=Roboto+Slab&family=Varela+Round&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Kanit:ital@1&family=Orbitron:wght@500&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Cinzel:wght@400;500&family=Kanit:ital@1&family=Orbitron:wght@500&family=Varela+Round&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Cinzel:wght@400;500&family=Kanit:ital@1&family=Orbitron:wght@500&family=Oxygen&family=Varela+Round&display=swap");
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Hind Siliguri;
+}
+:root{
+    --primary: rgb(92, 88, 88);
+    --secondry: rgb(255, 255, 255);
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(155, 148, 148);
+}
+::-webkit-scrollbar-thumb{
+    background-color: #66FF53;
+    width: 5px;
+    border-radius: 20px;
+}
+
+/* body
+{
+    background-color: #66FF53;
+} */
+.main-cover {
+    background-image: url(https://4kwallpapers.com/images/wallpapers/ios-13-stock-dark-green-black-background-amoled-ipad-hd-1920x1080-791.jpg);
+    background-repeat: no-repeat;
+    
+}
+
+.back-nav {
+    background-color: black;
+    width: 100%;
+    border: 2px solid black;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+
+}
+
+.brand-1
+{
+    font-family: Cinzel Decorative;
+    color: #66FF53;
+    position: relative;
+    font-weight: bolder;
+    animation-name: brand-1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes brand-1 {
+    0%{
+        top:-80px;
+        left: 0px;
+    }
+    100%{
+        top: 0px;
+    }
+    
+}
+
+
+.back-g {
+    background-color: black;
+
+}
+
+.search-bar {
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.search-icon {
+    font-size: 2.2em;
+    padding: 0.4rem;
+    cursor: pointer;
+    background-color: black;
+    color: #66FF53;
+    border-radius: 5px;
+
+}
+
+#nav-1 {
+    display: none;
+    padding-left: 20%;
+    animation: nav-1 2s ease 0s 1 normal forwards;
+    transition: 0.5ms ease-in-out;
+}
+@keyframes nav-1 {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateX(350px);
+	}
+
+	24% {
+		opacity: 1;
+	}
+
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateX(26px);
+	}
+
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateX(13px);
+	}
+
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateX(6.5px);
+	}
+
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateX(4px);
+	}
+
+	25%,
+	55%,
+	75%,
+	87%,
+	98% {
+		animation-timing-function: ease-out;
+		transform: translateX(0px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+#menu {
+    display: none;
+
+}
+
+#cross {
+    display: none;
+
+}
+
+.search-back {
+    background-color: black;
+}
+
+.icons {
+    color: white;
+    margin-right: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.icons:hover {
+    color: #66FF53;
+
+}
+
+.item-2:hover {
+    color: #66FF53;
+}
+
+.sec-all-pro {
+    display: none;
+}
+
+.sec-all-pro {
+    width: 100%;
+    height: 22vh;
+
+
+}
+.anchor{
+    animation: anchor 1s ease 0s 1 normal forwards;
+}
+@keyframes anchor {
+	0% {
+		opacity: 0;
+		transform: translateY(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.pro-duct{
+    background-color: rgba(87, 84, 84, 0.253);  
+}
+.error_Page{
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+}
+
+.clock-box {
+    position: absolute;
+    top: 12.3%;
+    left: -12.8%;
+    padding: 3px;
+    padding-left: 10px;
+    z-index: 5;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: fixed;
+    transition: 0.5s ease-in-out;
+    background-image: linear-gradient(white,#7adb6d);
+    cursor: pointer;
+}
+
+.clock-box:hover {
+    left: 0px;
+
+    box-shadow: 1px 2px 10px black;
+}
+
+#clock span{
+    color: black;
+    /* text-shadow: 2px 1px 1px var(--primary); */
+}
+
+#clock img {
+    position: relative;
+    left: 150px;
+    z-index: 14;
+}
+
+.theme {
+    color: black;
+}
+
+.sec-pro {
+    width: 16.6%;
+    height: 22vh;
+
+}
+
+.sec-pro p {
+    font-weight: bold;
+}
+.i-names{
+    color: var(--secondry);
+}
+.charts{
+    width: 100%;
+    display: flex;
+    margin: 50px 0px;
+}
+.chart{
+    width: 50%;
+}
+.chart .chart-span{
+    border-radius: 5px;
+    font-size: 2rem;
+    padding: 0% 5%;
+    background-color: rgba(105, 101, 101, 0.192);
+}
+.loading{
+    width: 100%;
+    height: 90vh;
+}
+.user-service {
+    width: 25%;
+    position: fixed;
+    top: 11.5%;
+    right: 0%;
+    z-index: 30;
+    background-color: rgba(0, 0, 0, 0.644);
+    border-top-left-radius: 10px;
+    box-shadow: 2px 2px 20px var(--primary);
+    display: none;
+   
+}
+
+.usersss {
+    background-color: #66FF53;
+    border-top-left-radius: 10px;
+
+}
+
+.user-x {
+    position: relative;
+    left: -90%;
+    font-size: 2rem;
+    color: var(--primary);
+    text-shadow: 1px 1px 2px var(--primary);
+}
+
+.usersss ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.usersss sec li {
+    font-size: 1.3rem;
+}
+
+.usersss ul li i {
+    color: var(--primary);
+    text-shadow: 3px 5px 10px black;
+}
+
+.user-name {
+    color: var(--secondry);
+    text-shadow: 3px 5px 10px black;
+
+}
+.product-hover:hover{
+    border-radius: 20px ;
+    box-shadow: 1px 2px 20px var(--primary);
+}
+.cart-page {
+    padding-top: 3%;
+    
+}
+.cover-cart{
+    width: 100%;
+    background-color: rgba(41, 35, 35, 0.452);
+    background-image: url(https://4kwallpapers.com/images/wallpapers/ios-13-stock-dark-green-black-background-amoled-ipad-hd-1920x1080-791.jpg);
+}
+.top-ser{
+    text-decoration: none;
+}
+.go-back{
+    width: 15%;
+    background-color: rgba(41, 38, 38, 0.596);
+    height: 8vh;
+    color: #66FF53;
+    font-size: 130%;
+    border: 2px solid #66FF53;
+    border-radius: 10px;
+    z-index: 10;
+    position: absolute;
+    top: 75%;
+    left: 42%;
+    box-shadow: 1px 2px 8px rgba(128, 117, 117, 0.589);
+   
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+th {
+    text-align: left;
+    padding: 5px;
+    color: white;
+    background-color: #66FF53;
+    font-weight: normal;
+   
+}
+
+
+td {
+    padding: 10px 5px;
+    color: var(--secondry);
+}
+
+td input {
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+
+td a {
+    color: var(--primary);
+    font-size: 12px;
+}
+
+td img {
+    width: 55px;
+    height: 12vh;
+    margin-right: 15px;
+}
+
+.total-price {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 40px;
+}
+
+.total-price table {
+    border-top: 3px solid var(--primary);
+    width: 100%;
+    max-width: 415px;
+}
+
+td:last-child {
+    text-align: right;
+}
+
+th:last-child {
+    text-align: right;
+}
+
+
+#model-boxx {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(102, 92, 92, 0.63);
+    z-index: 20;
+    display: none;
+
+}
+
+.service ul {
+    list-style: none;
+    color: var(--secondry);
+}
+
+.service ul li .c-icon {
+    color: #66FF53;
+}
+
+
+.btn-2 {
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.all-products
+{
+    box-shadow: 1px 3px 8px black;
+    padding-bottom: 5px;
+    border: 2px solid transparent;
+    
+}
+.slider-img{
+    height: 300px;
+}
+.all-list:hover{
+
+    border-radius: 15px;
+    box-shadow: 1px 2px 15px var(--primary);
+}
+.anchor{
+    text-decoration: none;
+    color: black;
+}
+
+.col-md-2 p {
+    font-weight: bold;
+}
+
+.slide-2 {
+    height: 45vh;
+}
+
+.height-2 {
+    height: 45vh;
+}
+
+.footer-1 {
+    background-color: black;
+}
+
+.footer-1 p {
+    color: white;
+    font-size: 0.9rem;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.footer-1 span {
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.footer-1 span i {
+    margin-left: 5px;
+    font-size: 1.8rem;
+}
+
+.footer-1 ul {
+    list-style: none;
+    margin-top: 10px;
+}
+.footer-1 ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.charts-2{
+    display: none;
+}
+.pro-names{
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    font-size: 0.5rem;
+    position: relative;
+    top: -10px;
+    color: black;
+}
+.logo-a
+{
+    position: relative;
+    animation-name: logo-a;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes logo-a {
+    0%{
+        left: -300px;
+    }
+    100%{
+        left: 0px;
+    }
+}
+.logo-icons{
+    font-size: 1.8rem;
+    padding-left: 5px;
+    cursor: pointer;
+    color: white;
+}
+.logo-icons:hover{
+    color: #66FF53;
+}
+
+.footer-1 span {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.footer-1 span i:hover {
+    color: #66FF53;
+}
+
+.footer-1 ul li a:hover {
+    color: #66FF53;
+}
+
+.footer-1 ul li a:hover {
+    color: #66FF53;
+}
+
+.footer-1 ul li a i:hover {
+    color: #66FF53;
+}
+
+.footer-1 ul li a i {
+    margin-left: 10px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.footer-1 .brand-1 {
+    font-family: Cinzel Decorative;
+    color: #66FF53;
+    font-weight: bolder;
+}
+
+.new-arrivals {
+    font-family: Cinzel Decorative;
+    color: #66FF53;
+    font-weight: bold;
+}
+
+.new-des {
+    font-family: Cinzel Decorative;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.star {
+    color: gold;
+}
+
+.rs {
+    font-weight: bold;
+}
+
+.add-cart {
+    color: #66FF53;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.add-cart:hover {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    border: 2px solid #66FF53;
+}
+
+.col-md-3 img {
+    transition: 0.3s ease-in-out;
+    height: 60%;
+}
+
+
+center a p {
+    color: black;
+    letter-spacing: 1px;
+    list-style-type: none;
+}
+
+center a :hover {
+    color: #66FF53;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.col-md-2:hover p {
+    color: #66FF53;
+}
+
+@media screen and (max-width: 576px) {
+    .col-md-2 p {
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    .user-service {
+        width: 90%;
+        position: fixed;
+        top: 11.5%;
+        right: 0%;
+        z-index: 30;
+        background-color: rgba(0, 0, 0, 0.644);
+        border-top-left-radius: 10px;
+        box-shadow: 2px 2px 20px var(--primary);
+        display: none;
+    }
+
+    
+
+    .all-products {
+        display: none;
+    }
+
+    .slide-2 {
+        height: 35vh;
+    }
+
+    .height-2 {
+        height: 35vh;
+    }
+
+}
+
+@media screen and (max-width: 990px) {
+
+    #menu {
+        display: block;
+
+        font-size: 1.5rem;
+    }
+    .charts{
+        width: 100%;
+        display: block;
+    }
+    .chart{
+        width: 100%;
+    }
+
+    #nav-1 {
+        display: none;
+        padding-left: 0%;
+
+    }
+
+    #cross {
+        display: none;
+
+        font-size: 1.7rem;
+    }
+    .slider-img{
+        height: 250px;
+    }
+    .user-service {
+        width: 40%;
+        position: fixed;
+        top: 11.5%;
+        right: 0%;
+        z-index: 30;
+        background-color: rgba(0, 0, 0, 0.644);
+        border-top-left-radius: 10px;
+        box-shadow: 2px 2px 20px var(--primary);
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .col-md-2 p {
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
+    .all-products {
+        display: none;
+    }
+
+    .slide-2 {
+        height: 35vh;
+    }
+
+    .back-nav {
+
+        width: 100%;
+        position: sticky;
+        top: 0px;
+        z-index: 10;
+        box-shadow: 1px 2px 20px white;
+
+        transition: 0.5s ease-in-out;
+
+    }
+    .go-back{
+        width: 25%;
+        height: 10vh;
+        font-size: 90%;
+       
+       
+    }
+    .height-2 {
+        height: 35vh;
+    }
+
+    
+
+    .sec-all-pro {
+        width: 100%;
+        height: 19vh;
+        display: flex;
+
+    }
+
+    .sec-all-pro p {
+        color: white;
+    }
+    .slider-img{
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+
+    .sec-all-pro {
+        width: 100%;
+        height: 19vh;
+        display: flex;
+    }
+
+    
+
+    .sec-pro {
+        width: 16.6%;
+        height: 19vh;
+    }
+
+    .sec-pro p {
+        font-weight: bold;
+        font-size: 0.8rem;
+    }
+    .user-service {
+        width: 75%;
+        position: fixed;
+        top: 11.5%;
+        right: 0%;
+        z-index: 30;
+        background-color: rgba(0, 0, 0, 0.644);
+        border-top-left-radius: 10px;
+        box-shadow: 2px 2px 20px var(--primary);
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width: 460px) {
+
+    .sec-all-pro {
+        width: 100%;
+        height: 15vh;
+        display: flex;
+
+    }
+
+    .sec-pro {
+        width: 16.6%;
+        height: 15vh;
+    }
+    .charts-2{
+        display: block;
+    }
+    .charts{
+        display: none;
+    }
+    
+
+    .sec-pro p {
+        font-weight: bold;
+        font-size: 0.7rem;
+    }
+
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .sec-all-pro {
+        width: 100%;
+        height: 13vh;
+        display: flex;
+
+    }
+
+    .sec-pro {
+        width: 16.6%;
+        height: 13vh;
+
+    }
+
+    .sec-pro p {
+        font-weight: bold;
+        font-size: 0.6rem;
+    }
+
+    
+
+
+}
+
+@media screen and (max-width: 1270px) {
+    .clock-box {
+
+        display: none;
+    }
+    .slider-img{
+        height: 280px;
+    }
+}

@@ -1,0 +1,435 @@
+[
+    {
+        "user_Id": "1",
+        "product_Price": 40000,
+        "id": "1",
+        "product_Type": "laptops",
+        "product_Name": "Asus laptops",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/laptop.png",
+        "link":"newlink"
+    },
+    {
+        "user_Id": "2",
+        "product_Price": 60000,
+        "id": "2",
+        "product_Type": "laptops",
+        "product_Name": "HP laptops",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/lap2.png"
+    },
+    {
+        "user_Id": "3",
+        "product_Price": 80000,
+        "id": "3",
+        "product_Type": "laptops",
+        "product_Name": "DELL laptops",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/lap2.png"
+    },
+    {
+        "user_Id": "4",
+        "product_Price": 70000,
+        "id": "4",
+        "product_Type": "laptops",
+        "product_Name": "ACER laptops",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/lap3.png"
+    },
+    {
+        "user_Id": "5",
+        "product_Price": 90000,
+        "id": "5",
+        "product_Type": "laptops",
+        "product_Name": "MSI laptops",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/lap2.png"
+    },
+    {
+        "user_Id": "6",
+        "product_Price": 50000,
+        "id": "6",
+        "product_Type": "laptops",
+        "product_Name": "Asus laptops",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/lap3.png"
+    },
+    {
+        "user_Id": "7",
+        "product_Price": 80000,
+        "id": "7",
+        "product_Type": "laptops",
+        "product_Name": "Apple laptops",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/lap2.png"
+    },
+    {
+        "user_Id": "8",
+        "product_Price": 60000,
+        "id": "8",
+        "product_Type": "laptops",
+        "product_Name": "Lenovo laptops",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/laptop.png"
+    },
+    {
+        "user_Id": "9",
+        "product_Price": 1000,
+        "id": "9",
+        "product_Type": "keyboards",
+        "product_Name": "Zebronix keyboards",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/k1.png"
+    },
+    {
+        "user_Id": "10",
+        "product_Price": 9000,
+        "id": "10",
+        "product_Type": "keyboards",
+        "product_Name": "Apple keyboards",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/k2.png"
+    },
+    {
+        "user_Id": "11",
+        "product_Price": 8300,
+        "id": "11",
+        "product_Type": "keyboards",
+        "product_Name": "Asus keyboards",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/k1.png"
+    },
+    {
+        "user_Id": "12",
+        "product_Price": 80000,
+        "id": "12",
+        "product_Type": "keyboards",
+        "product_Name": "Asus keyboards",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/keyboard.png"
+    },
+    {
+        "user_Id": "13",
+        "product_Price": 2000,
+        "id": "13",
+        "product_Type": "keyboards",
+        "product_Name": "HP keyboards",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/k2.png"
+    },
+    {
+        "user_Id": "14",
+        "product_Price": 1700,
+        "id": "14",
+        "product_Type": "keyboards",
+        "product_Name": "Pitronix keyboards",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/keyboard.png"
+    },
+    {
+        "user_Id": "15",
+        "product_Price": 3100,
+        "id": "15",
+        "product_Type": "keyboards",
+        "product_Name": "Dell keyboards",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/k2.png"
+    },
+    {
+        "user_Id": "16",
+        "product_Price": 999,
+        "id": "16",
+        "product_Type": "keyboards",
+        "product_Name": "Asus keyboards",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/keyboard.png"
+    },
+    {
+        "user_Id": "17",
+        "product_Price": 1200,
+        "id": "17",
+        "product_Type": "mouses",
+        "product_Name": "Asus mouses",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/mo1.png"
+    },
+    {
+        "user_Id": "18",
+        "product_Price": 900,
+        "id": "18",
+        "product_Type": "mouses",
+        "product_Name": "HP mouses",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/mo2.png"
+    },
+    {
+        "user_Id": "19",
+        "product_Price": 4000,
+        "id": "19",
+        "product_Type": "mouses",
+        "product_Name": "Asus mouses",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/mo1.png"
+    },
+    {
+        "user_Id": "20",
+        "product_Price": 2100,
+        "id": "20",
+        "product_Type": "mouses",
+        "product_Name": "MSI mouses",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/mouse.png"
+    },
+    {
+        "user_Id": "21",
+        "product_Price": 500,
+        "id": "21",
+        "product_Type": "mouses",
+        "product_Name": "Asus mouses",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/mo2.png"
+    },
+    {
+        "user_Id": "22",
+        "product_Price": 880,
+        "id": "22",
+        "product_Type": "mouses",
+        "product_Name": "Asus mouses",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/mo1.png"
+    },
+    {
+        "user_Id": "23",
+        "product_Price": 7100,
+        "id": "23",
+        "product_Type": "mouses",
+        "product_Name": "Dell mouses",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/mo3.png"
+    },
+    {
+        "user_Id": "24",
+        "product_Price": 80000,
+        "id": "24",
+        "product_Type": "mouses",
+        "product_Name": "Asus mouses",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/mouse.png"
+    },
+    {
+        "user_Id": "25",
+        "product_Price": 10000,
+        "id": "25",
+        "product_Type": "headphones",
+        "product_Name": "HP headphones",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/h2.png"
+    },
+    {
+        "user_Id": "26",
+        "product_Price": 13000,
+        "id": "26",
+        "product_Type": "headphones",
+        "product_Name": "Apple headphones",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/h1.png"
+    },
+    {
+        "user_Id": "27",
+        "product_Price": 800,
+        "id": "27",
+        "product_Type": "headphones",
+        "product_Name": "MSI headphones",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/headphone.png"
+    },
+    {
+        "user_Id": "28",
+        "product_Price": 8090,
+        "id": "28",
+        "product_Type": "headphones",
+        "product_Name": "ASER headphones",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/h3.png"
+    },
+    {
+        "user_Id": "29",
+        "product_Price": 80000,
+        "id": "29",
+        "product_Type": "headphones",
+        "product_Name": "Asus headphones",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/h2.png"
+    },
+    {
+        "user_Id": "30",
+        "product_Price": 899,
+        "id": "30",
+        "product_Type": "headphones",
+        "product_Name": "Asus headphones",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/headphone.png"
+    },
+    {
+        "user_Id": "31",
+        "product_Price": 80000,
+        "id": "31",
+        "product_Type": "headphones",
+        "product_Name": "Asus headphones",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/h1.png"
+    },
+    {
+        "user_Id": "32",
+        "product_Price": 8200,
+        "id": "32",
+        "product_Type": "headphones",
+        "product_Name": "Ant Esports headphones",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/h3.png"
+    },
+    {
+        "user_Id": "33",
+        "product_Price": 8090,
+        "id": "33",
+        "product_Type": "chairs",
+        "product_Name": "Ant Esports chairs",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/c2.png"
+    },
+    {
+        "user_Id": "34",
+        "product_Price": 3000,
+        "id": "34",
+        "product_Type": "chairs",
+        "product_Name": "Cosmicbity chairs",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/c4.png"
+    },
+    {
+        "user_Id": "35",
+        "product_Price": 30000,
+        "id": "35",
+        "product_Type": "chairs",
+        "product_Name": "Asus chairs",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/c1.png"
+    },
+    {
+        "user_Id": "36",
+        "product_Price": 6400,
+        "id": "36",
+        "product_Type": "chairs",
+        "product_Name": "Asus gaming chairs",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/c2.png"
+    },
+    {
+        "user_Id": "37",
+        "product_Price": 8000,
+        "id": "37",
+        "product_Type": "chairs",
+        "product_Name": "ANT Esports chairs",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/c5.png"
+    },
+    {
+        "user_Id": "38",
+        "product_Price": 19000,
+        "id": "38",
+        "product_Type": "chairs",
+        "product_Name": "MSI chairs",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/chair.png"
+    },
+    {
+        "user_Id": "39",
+        "product_Price": 3999,
+        "id": "39",
+        "product_Type": "chairs",
+        "product_Name": "HP chairs",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/c4.png"
+    },
+    {
+        "user_Id": "40",
+        "product_Price": 4000,
+        "id": "40",
+        "product_Type": "chairs",
+        "product_Name": "Dell chairs",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/c3.png"
+    },
+    {
+        "user_Id": "41",
+        "product_Price": 90000,
+        "id": "41",
+        "product_Type": "mobiles",
+        "product_Name": "Asus mobiles",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/m2.png"
+    },
+    {
+        "user_Id": "42",
+        "product_Price": 12000,
+        "id": "42",
+        "product_Type": "mobiles",
+        "product_Name": "Redmi mobiles",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/m1.png"
+    },
+    {
+        "user_Id": "43",
+        "product_Price": 33000,
+        "id": "43",
+        "product_Type": "mobiles",
+        "product_Name": "Realme mobiles",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/mobile2.png"
+    },
+    {
+        "user_Id": "44",
+        "product_Price": 150000,
+        "id": "44",
+        "product_Type": "mobiles",
+        "product_Name": "Apple mobiles",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/m2.png"
+    },
+    {
+        "user_Id": "45",
+        "product_Price": 41000,
+        "id": "45",
+        "product_Type": "mobiles",
+        "product_Name": "IQOO mobiles",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/m1.png"
+    },
+    {
+        "user_Id": "46",
+        "product_Price": 28000,
+        "id": "46",
+        "product_Type": "mobiles",
+        "product_Name": "Redmi mobiles",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/mobile2.png"
+    },
+    {
+        "user_Id": "47",
+        "product_Price": 34000,
+        "id": "47",
+        "product_Type": "mobiles",
+        "product_Name": "Asus mobiles",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/m2.png"
+    },
+    {
+        "user_Id": "48",
+        "product_Price": 34500,
+        "id": "48",
+        "product_Type": "mobiles",
+        "product_Name": "Realme 9SE 5g mobiles",
+        "product_Details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam consequatur est corporis! Consequatur atque excepturi eum ipsum ea quae eveniet saepe at nesciunt ullam rem, sequi ipsam eligendi quidem?",
+        "product_Image": "/images/m1.png"
+    }
+]

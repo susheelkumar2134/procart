@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=Cinzel+Decorative&family=Cinzel:wght@400;500&family=Hind+Siliguri&family=Kanit&family=Orbitron:wght@500&family=Oxygen&family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=Cinzel+Decorative&family=Cinzel:wght@400;500&family=Hind+Siliguri&family=Kanit&family=Orbitron:wght@500&family=Oxygen&family=Roboto+Slab&family=Varela+Round&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Kanit:ital@1&family=Orbitron:wght@500&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Cinzel:wght@400;500&family=Kanit:ital@1&family=Orbitron:wght@500&family=Varela+Round&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Cinzel:wght@400;500&family=Kanit:ital@1&family=Orbitron:wght@500&family=Oxygen&family=Varela+Round&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Hind Siliguri;
+}
+/* body
+{
+    background-color: #66FF53;
+} */
+
+.item-2:hover
+{
+    color: #66FF53;
+}
+.btn-2
+{
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+/* .all-products
+{
+    box-shadow: 1px 3px 8px black;
+}
+.col-md-2 p
+{
+    font-weight: bold;
+}
+.slide-2
+{
+    height: 45vh;
+}
+.height-2
+{
+    height: 45vh;
+}
+.footer-1
+{
+    background-color: black;
+}
+.footer-1 p
+{
+    font-size: 0.8rem;
+    color: white;
+    font-size: 1rem;
+    color: white;
+    letter-spacing: 2px;
+}
+.footer-1 span
+{
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.footer-1 span i
+{
+    margin-left: 5px;
+    font-size: 1.8rem;
+}
+.footer-1 ul
+{
+    list-style: none;
+    margin-top: 10px;
+}
+.footer-1 ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+.footer-1 span
+{
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.footer-1 span i:hover
+{
+    color: #66FF53;
+}
+.footer-1 ul li a:hover
+{
+    color: #66FF53;
+}
+.footer-1 ul li a:hover
+{
+    color: #66FF53;
+}
+.footer-1 ul li a i:hover
+{
+    color: #66FF53;
+}
+.footer-1 ul li a i
+{
+    margin-left:10px;
+    font-size: 1.5rem;
+    color: white;
+}
+.footer-1 .brand-1
+{
+    font-family: Cinzel Decorative;
+    color: #66FF53;
+    font-weight: bolder;
+}
+.new-arrivals
+{
+    font-family: Cinzel Decorative;
+    color: #66FF53;
+    font-weight: bold;
+}
+.new-des
+{
+    font-family: Cinzel Decorative;
+    color: white;
+    letter-spacing: 2px;
+}
+.star
+{
+    color: gold;
+}
+.rs
+{
+    font-weight: bold;
+}
+.add-cart
+{
+    color: #66FF53;
+    background-color: black;
+    border-radius: 5px;
+}
+.add-cart:hover
+{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    border:  2px solid #66FF53;
+}
+.col-md-3 img
+{
+    transition: 0.3s ease-in-out;
+    height: 60%;
+}
+.col-md-3:hover img
+{
+    width: 90%;
+    height: 55%;
+}
+.col-md-3:hover 
+{
+    width: 90%;
+    height: 55%;
+    border: 2px solid #66FF53;
+    border-radius: 10px;
+}
+center a p
+{
+    color: black;
+    letter-spacing: 1px;
+    list-style-type: none;
+}
+center a :hover
+{
+    color: #66FF53;
+    text-decoration: none;
+}
+a:hover
+{
+    cursor: pointer;
+    text-decoration: none;
+} */
+.log-img
+{
+    height: 70%;
+}
+.btn-1
+{
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #66FF53;
+}
+.btn-2
+{
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: red;
+}
+.col-md-2:hover p
+{
+    color: #66FF53;
+}
+.react-error{
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.react-error::before{
+    content: "*";
+    color: red;
+    padding-right: 4px;
+}
+
+form span
+{
+    color: white;
+    font-family: Cinzel Decorative;
+}
+form h1
+{
+    font-family: Cinzel Decorative;
+    color: #66FF53;
+    font-weight: bold
+}
+@media screen and (max-width: 576px) {
+.col-md-2 p
+{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.all-products
+{
+    display: none;
+}
+.slide-2
+{
+    height: 35vh;
+}
+.height-2
+{
+    height: 35vh;
+}
+
+}
