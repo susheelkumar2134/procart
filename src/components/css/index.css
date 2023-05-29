@@ -210,7 +210,7 @@
 
 .clock-box {
     position: absolute;
-    top: 12.3%;
+    top: 12.2%;
     left: -12.8%;
     padding: 3px;
     padding-left: 10px;
@@ -219,18 +219,20 @@
     border-bottom-right-radius: 5px;
     position: fixed;
     transition: 0.5s ease-in-out;
-    background-image: linear-gradient(white,#7adb6d);
+    background-image: linear-gradient(rgba(36, 226, 201, 0.788),#ffee00d5);
     cursor: pointer;
+    box-shadow: 1px 2px 10px rgb(207, 203, 203);
+    border: 1px solid black;
+ 
 }
 
 .clock-box:hover {
     left: 0px;
 
-    box-shadow: 1px 2px 10px black;
 }
 
 #clock span{
-    color: black;
+    color: black ;
     /* text-shadow: 2px 1px 1px var(--primary); */
 }
 
@@ -241,13 +243,21 @@
 }
 
 .theme {
+    color: white;
+}
+.p-name{
     color: black;
 }
 
 .sec-pro {
     width: 16.6%;
     height: 22vh;
-
+}
+.wishlist{
+    margin-left: 7%;
+    margin-bottom: 5px;
+    font-size: 110%;
+    color: orange;
 }
 
 .sec-pro p {
@@ -295,7 +305,7 @@
 
 .user-x {
     position: relative;
-    left: -90%;
+    left: -30%;
     font-size: 2rem;
     color: var(--primary);
     text-shadow: 1px 1px 2px var(--primary);
@@ -312,14 +322,11 @@
     font-size: 1.3rem;
 }
 
-.usersss ul li i {
-    color: var(--primary);
-    text-shadow: 3px 5px 10px black;
-}
 
 .user-name {
     color: var(--secondry);
     text-shadow: 3px 5px 10px black;
+   padding-left: 5%;
 
 }
 .product-hover:hover{
@@ -352,6 +359,11 @@
     left: 42%;
     box-shadow: 1px 2px 8px rgba(128, 117, 117, 0.589);
    
+}
+.user-picture{
+    border-radius: 30px;
+    width: 15%;
+
 }
 table {
     width: 100%;
@@ -434,7 +446,10 @@ th:last-child {
 }
 
 .service ul li .c-icon {
-    color: #66FF53;
+    color: var(--primary);
+}
+.service ul li  {
+    color: var(--secondry);
 }
 
 

@@ -17,13 +17,13 @@ function SearchProduct() {
                             <div className="col-md-3 pb-4 pt-4 pr-2 pl-2 product-hover">
                                 <img src={items.product_Image} width="100%" alt='product' className='pros-imgs' />
                                 <div style={{ marginLeft: "20px" }}><h3 className="p-name">{items.product_Name}</h3>
-                                    <span className="star">
+                                    {/* <span className="star">
                                         <i className="fa-solid fa-star" />
                                         <i className="fa-solid fa-star" />
                                         <i className="fa-solid fa-star" />
                                         <i className="fa-solid fa-star" />
                                         <i className="fa-solid fa-star" />
-                                    </span>
+                                    </span> */}
                                     <p className="rs">Rs {items.product_Price}/-</p>
                                     <Link to={`/${items.id}`} >
                                         <button className="add-cart p-2">Add to cart</button></Link>

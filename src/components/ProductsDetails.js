@@ -4,6 +4,8 @@ import productsapi from './allproductlist.json'
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.js";
 import { Link, useParams } from 'react-router-dom';
+import { BsFillBagHeartFill } from "react-icons/bs";
+
 
 function ProductsDetails() {
   let proId = useParams()
@@ -19,7 +21,8 @@ function ProductsDetails() {
             <img src={proDetails.product_Image} alt="product_Img" className="img-fluid pro-duct" />
           </div>
           <div className="col-sm-5 offset-sm-1 pt-1">
-            <h2>{proDetails.product_Name} </h2>
+            <h2>{proDetails.product_Name} <small><BsFillBagHeartFill style={{  cursor: 'pointer' }}
+            className='wishlist'/> </small> </h2>
             <hr />
             <p>{proDetails.product_Details}</p>
            

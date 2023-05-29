@@ -156,9 +156,11 @@ function MyNavbar() {
       <ul className="usersss-ul ">
         <li>
           <RxCross2 style={{ color: "white" }}  onClick={menu_x} className='user-x' />
-          <FaUser  style={{ paddingRight: 5, fontSize: 27,color:'black' }} className="user pl-2"  />
+          <img src={isAuthenticated && user.picture} className="user user-picture" alt='user data'  />
+          <span className="pt-1 user-name">
+          {isAuthenticated && <span>{user.name}</span>}
+          </span>
         </li>
-        <li className="pt-1 user-name"> {isAuthenticated && <span>{user.name}</span>} </li>
         <li>
           <img src={logo} className="pr-2" width="45px" height="35px" alt='Main logo' />
         </li>
@@ -169,82 +171,82 @@ function MyNavbar() {
         <b>
         <Link to="cart" className='top-ser'>
           <li className='p-1'>
-          <FaUser   className="c-icon"  style={{ marginRight: 15, fontSize: 19}}  />
+          <FaUser   className="c-icon"  style={{ marginRight: 15,color:'#66FF53', fontSize: 19}}  />
             My Profile
           </li></Link>
           <Link to="cart" className='top-ser'>
           <li className='p-1'>
-            <FaEdit  className='c-icon'  style={{ marginRight: 15, fontSize: 19}}/>
+            <FaEdit  className='c-icon'  style={{ marginRight: 15,color:'#66FF53', fontSize: 19}}/>
             Edit Profile
           </li></Link>
           <Link to="cart" className='top-ser'>
           <li className='p-1'>
-            <CgPassword className='c-icon'  style={{ marginRight: 15, fontSize: 19}} />
+            <CgPassword className='c-icon'  style={{ marginRight: 15,color:'#66FF53', fontSize: 19}} />
             Change Password
           </li></Link>
           <Link to="cart" className='top-ser'>
           <li className='p-1'>
-            <FaLuggageCart className='c-icon'  style={{ marginRight: 15, fontSize: 19}}/>
+            <FaLuggageCart className='c-icon'  style={{ marginRight: 15,color:'#66FF53', fontSize: 19}}/>
             My Orders
           </li></Link>
           <Link to="cart" className='top-ser'>
           <li className='p-1'>
-          <FaShoppingCart className='c-icon'  style={{ marginRight: 15, fontSize: 19}}/>
+          <FaShoppingCart className='c-icon'  style={{ marginRight: 15,color:'#66FF53', fontSize: 19}}/>
             My Cart
           </li></Link>
           <Link to="cart" className='top-ser'>
           <li className='p-1'>
-            <FaLanguage  className='c-icon'  style={{ marginRight: 15, fontSize: 19}}/>
+            <FaLanguage  className='c-icon'  style={{ marginRight: 15,color:'#66FF53', fontSize: 19}}/>
             Choose Language
           </li></Link>
           <Link to="cart" className='top-ser'>
           <li className='p-1'>
-          <MdLocalOffer  className='c-icon'  style={{ marginRight: 15, fontSize: 19}}/>
+          <MdLocalOffer  className='c-icon'  style={{ marginRight: 15,color:'#66FF53', fontSize: 19}}/>
             Offer Zone
           </li></Link>
           <Link to="cart" className='top-ser'>
           <li className='p-1'>
-          <RiCoupon2Fill  className='c-icon'  style={{ marginRight: 15, fontSize: 19}}/>
+          <RiCoupon2Fill  className='c-icon'  style={{ marginRight: 15,color:'#66FF53', fontSize: 19}}/>
             Coupons
           </li></Link>
           <Link to="cart" className='top-ser'>
           <li className='p-1'>
-          <MdNotificationsActive  className='c-icon'  style={{ marginRight: 15, fontSize: 19}}/>
+          <MdNotificationsActive  className='c-icon'  style={{ marginRight: 15,color:'#66FF53', fontSize: 19}}/>
             My Notifications
           </li></Link>
           <Link to="cart" className='top-ser'>
           <li className='p-1'>
-          <BiTrendingUp  className='c-icon'  style={{ marginRight: 15, fontSize: 19}}/>
+          <BiTrendingUp  className='c-icon'  style={{ marginRight: 15,color:'#66FF53', fontSize: 19}}/>
             Trending
           </li></Link>
           <Link to="cart" className='top-ser'>
           <li className='p-1'>
-          <MdOutlineSettings  className='c-icon'  style={{ marginRight: 15, fontSize: 19}}/>
+          <MdOutlineSettings  className='c-icon'  style={{ marginRight: 15,color:'#66FF53', fontSize: 19}}/>
             Setting
           </li></Link>
           <Link to="chart" className='top-ser'>
           <li className='p-1'>
-          <BsFillBarChartFill  className='c-icon'  style={{ marginRight: 15, fontSize: 19}}/>
+          <BsFillBarChartFill  className='c-icon'  style={{ marginRight: 15,color:'#66FF53', fontSize: 19}}/>
             Perfromance Chart
           </li></Link>
           <Link to="cart" className='top-ser'>
           <li className='p-1'>
-          <FaHandsHelping  className='c-icon'  style={{ marginRight: 15, fontSize: 19}}/>
+          <FaHandsHelping  className='c-icon'  style={{ marginRight: 15,color:'#66FF53', fontSize: 19}}/>
             Help center
           </li></Link>
           <Link to="cart" className='top-ser'>
           <li className='p-1'>
-          <FaFileContract  className='c-icon'  style={{ marginRight: 15, fontSize: 19}}/>
+          <FaFileContract  className='c-icon'  style={{ marginRight: 15,color:'#66FF53', fontSize: 19}}/>
             Contact Us
           </li></Link>
           <Link to="cart" className='top-ser'>
           <li className='p-1'>
-          <MdRoundaboutLeft  className='c-icon'  style={{ marginRight: 15, fontSize: 19}}/>
+          <MdRoundaboutLeft  className='c-icon'  style={{ marginRight: 15,color:'#66FF53', fontSize: 19}}/>
             About Us
           </li></Link>
           <Link  className='top-ser'>
           <li className='p-1' onClick={()=> logout({ returnTo: window.location.origin })}>
-          <MdLogout  className='c-icon'  style={{ marginRight: 15, fontSize: 19}} 
+          <MdLogout  className='c-icon'  style={{ marginRight: 15,color:'#66FF53', fontSize: 19}} 
            />
            Log Out
           </li></Link>
